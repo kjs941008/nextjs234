@@ -21,7 +21,7 @@ export default async (req, res) => {
                             email : data.email,
                             authority : data.authority});
         }else{
-            
+            console.log("있다");
         }
         
         
